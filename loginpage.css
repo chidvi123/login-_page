@@ -1,0 +1,105 @@
+*{
+    margin:0;
+    box-sizing: border-box;
+    font-family:cursive;
+}
+
+body{
+    margin:0;
+    display:flex; /*enduku */
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    background-image:url("images2/loginpagebackground.jpg");
+    background-size:cover;
+}
+
+.container{
+     /* position:relative;  */
+     width:400px;
+     height:350px;
+    border: 1px dotted #fff;
+    border-radius:15px;
+    background: rgba(255,255,255,0.1);
+    box-shadow:0 4px 6px rgba(0,0,0,0.1);
+    border: 1px solid #fff;
+
+}
+
+.login-box{
+     max-width:250px;
+    text-align:center;  
+    margin:0 auto; 
+}
+
+h1
+{
+    color:#fff;
+    margin-top:20px;
+    margin-left:10px;
+    /* text-align: center;  enduku pamicheyyatledu??*/
+}
+form
+{
+     display: flex;
+    flex-direction: column;
+    margin-top:20px;
+   
+} 
+
+input{
+   
+    padding: 10px;
+    margin-top:10px;
+    border:none;
+    border-radius:10px;
+    background:transparent;
+    border:1px solid#fff;
+    font-size:15px;
+}
+
+input::placeholder
+{
+    color:#fff;
+}
+
+.options
+{
+    display:flex;
+    text-align:center;
+    margin-top:10px;
+    font-size:10px;
+    color:white;
+}
+
+.options input
+{
+    margin-left:0px;
+    margin-top:0px;
+    
+}.options a
+{
+    margin-left:60px;
+    color:white;
+
+}
+
+#button
+{
+    border:none;
+    border-radius:5px;
+    padding:5px;
+    width:100px;
+    margin-left:65px;
+    margin-top:15px;
+    border:1px solid #fff;
+    color:black;
+}
+
+#link
+{
+    font-size:12px ;
+    color:black;
+    margin-top:15px;
+
+}
